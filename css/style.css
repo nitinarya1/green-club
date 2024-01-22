@@ -62,7 +62,7 @@ section{
     padding:.8rem 3rem;
     background:#0773eea2;
     color:#fff;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     cursor:progress;
   border-radius: 9cqi;
   
@@ -71,7 +71,7 @@ section{
 
 .btn:hover{
     background:var(--green);
-    letter-spacing: .7rem;
+    letter-spacing: .2rem;
 }
 
 header{
@@ -419,13 +419,13 @@ progress{
     text-align: justify;
 }
 
-.activities .box-container{
+.blogs .box-container{
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
 }
 
-.activities .box-container .box{
+.blogs .box-container .box{
     flex: 1 1 30rem;
     border-radius: .5rem;
     background:rgba(11, 175, 240, 0.589);
@@ -439,20 +439,20 @@ overflow-x: auto;
     
 }
 
-.activities .box-container .box img{
+.blogs .box-container .box img{
     height:100%;
     width:100%;
     border-radius: 2rem;
      object-fit: cover;
 }
 
-.activities .box-container .box h3{
+.blogs .box-container .box h3{
     color:var(--green);
     font-size:2.0rem;
     padding:.5rem 0;
 }
 
-.activities .box-container .box p{
+.blogs .box-container .box p{
     color:#ffffff;
     font-size: 1.2rem;
     padding:.5rem 0;
