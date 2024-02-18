@@ -75,9 +75,8 @@ section{
 }
 
 header{
-    position: fixed;
-    top:0; right:0;
-    min-height: 100vh;
+    position: absolute;
+    top:0; right: 10px;;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -85,7 +84,7 @@ header{
 }
 
 header .navbar{
-    writing-mode: vertical-lr;
+    writing-mode: horizontal-tb;
     padding: 9px;
     
 }
