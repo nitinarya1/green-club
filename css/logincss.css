@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.page::before{
+    content: "";
+    position: absolute;
+    background: url('anime2.webp') no-repeat center center/cover;
+    height: 100vh;
+    width: 100vw;
+
+    /* opacity:1; */
+    z-index: -1;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    border: 3.4px solid ;
+    border-image: linear-gradient(23deg,red,blue)10;
+    border-radius: 7px;
+    padding: 60px; 
+    height: 20rem;
+    width: 16rem;
+    box-shadow: -7px -9px 12px black;
+    background-color:rgb(0, 0, 0,0.6432);
+
+}
+#container input{
+    width: 100%;
+    padding: 0.4rem 0.3rem;
+    border: 2px solid black;
+    border-radius: 13px;
+}
+button{
+    width: 6rem;
+    height: 2rem;
+    border: 3px solid gray ;
+    border-radius: 19px;
+    margin: 20px 0px;
+}
+button:hover{
+    background-color: darkgrey;
+}
+.links{
+    font-size: 1rem;
+    margin: 4px 0px;
+}
+.links a{
+    color: rgb(255, 255, 255);
+    margin: 0px 21px;
+}
+#container h2{
+    position: relative;
+    bottom: 30px;
+    font-size: 2rem;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    /* margin: 0px 0px 20px 0px; */
+}
+
+#container label{
+    font-size: 1.2;
+    color: #f859ff;
+    margin: 5px 0px;
+}
+.links a:hover{
+    color: #f859ff;
+}
+.links a:active{
+    color: red;
+}
