@@ -33,7 +33,7 @@
     height: 20rem;
     width: 16rem;
     box-shadow: -7px -9px 12px black;
-    background-color:rgba(20, 248, 248, 0.815);
+    background-color:rgba(122, 211, 211, 0.534);
 
 }
 #container input{
@@ -45,7 +45,7 @@
 button{
     width: 6rem;
     height: 2rem;
-    border: 3px solid gray ;
+    border: 3px solid rgba(180, 161, 161, 0.795) ;
     border-radius: 19px;
     margin: 20px 0px;
 }
