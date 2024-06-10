@@ -65,18 +65,18 @@ button:hover{
     bottom: 30px;
     font-size: 2rem;
     font-style: oblique;
-    font-family: '', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seri;
+
     color: rgb(0, 0, 0);
     /* margin: 0px 0px 20px 0px; */
 }
 
 #container label{
-    font-size: 1.2;
+    font-size: 1.3;
     color: #000000;
     margin: 5px 0px;
 }
 .links a:hover{
-    color: #f859ff;
+    color: #ff0000;
 }
 .links a:active{
     color: red;
