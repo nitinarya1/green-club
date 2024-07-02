@@ -439,7 +439,7 @@ progress{
 .blogs .box-container .box{
     flex: 1 1 30rem;
     border-radius: .5rem;
-    background:rgba(11, 175, 240, 0.589);
+    background:rgba(166, 187, 196, 0.589);
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     position: relative;
     
